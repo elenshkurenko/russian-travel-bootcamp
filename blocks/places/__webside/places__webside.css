@@ -1,0 +1,12 @@
+.places__webside{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 610px) {
+  .places__webside{
+    margin: 0 16px;
+  }
+}
