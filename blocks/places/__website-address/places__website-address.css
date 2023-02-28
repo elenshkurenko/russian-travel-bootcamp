@@ -1,7 +1,11 @@
-.places__webside-address{
+.places__website-address{
   margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   color: #fff;
+}
+
+.places__website-address:hover{
+  opacity: 0.8;
 }

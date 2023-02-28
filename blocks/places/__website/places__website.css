@@ -1,4 +1,4 @@
-.places__webside{
+.places__website{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -6,7 +6,7 @@
 
 
 @media screen and (max-width: 610px) {
-  .places__webside{
+  .places__website{
     margin: 0 16px;
   }
 }

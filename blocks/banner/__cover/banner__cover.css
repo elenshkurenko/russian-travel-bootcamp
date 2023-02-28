@@ -1,8 +1,7 @@
 .banner__cover{
   background-image: url("../../../images/cover-trains.jpg");
-  max-height: 740px;
   /* пропорции ширины к высоте картинки для разрешения 1280px 740px (высота) / 1184px (ширина) = 0.625 */
-  height: calc((100vw - (48px * 2)) * 0.625);
+  min-height: calc((100vw - (48px * 2)) * 0.625);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -27,12 +26,12 @@
 }
 
 .banner__cover:hover::before{
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 
 @media screen and (max-width: 1024px) {
   .banner__cover{
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
   }
  }
