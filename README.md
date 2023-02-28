@@ -22,4 +22,4 @@
 - БЭМ
 
 **Проект**
-*[Ссылка проекта на GitHub Pages]()
+*[Ссылка проекта на GitHub Pages](https://elenshkurenko.github.io/russian-travel-bootcamp/)
